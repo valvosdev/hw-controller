@@ -70,9 +70,38 @@ The project includes:
 
 # Repository Structure
 
-text aqua-eq8/ ├── firmware/ │   ├── main/ │   ├── components/ │   ├── ble/ │   ├── wifi/ │   ├── mqtt/ │   ├── ota/ │   └── valve/ │ ├── hardware/ │   ├── schematic/ │   ├── pcb/ │   ├── enclosure/ │   └── bom/ │ ├── api/ │   ├── cmd/ │   ├── internal/ │   ├── deployments/ │   ├── helm/ │   └── docker/ │ ├── mobile/ │   ├── src/ │   ├── ios/ │   └── android/ │ └── docs/ 
+```
+aqua-eq8/
+├── firmware/
+│   ├── main/
+│   ├── components/
+│   ├── ble/
+│   ├── wifi/
+│   ├── mqtt/
+│   ├── ota/
+│   └── valve/
+│
+├── hardware/
+│   ├── schematic/
+│   ├── pcb/
+│   ├── enclosure/
+│   └── bom/
+│
+├── api/
+│   ├── cmd/
+│   ├── internal/
+│   ├── deployments/
+│   ├── helm/
+│   └── docker/
+│
+├── mobile/
+│   ├── src/
+│   ├── ios/
+│   └── android/
+│
+└── docs/
 
----
+```
 
 # Hardware
 
@@ -86,8 +115,9 @@ text 24VAC Barrel Jack
 
 ### Internal Rails
 
+```
 text 24VAC  ├── Valve Outputs  ├── Current Monitoring  └── AC/DC Converter       ├── 5V       └── 3.3V 
-
+```
 ---
 
 ## Main Components
@@ -514,15 +544,18 @@ text Zone 4 ON  Expected Current: 220mA Measured Current: 0mA  Alert: Valve Not 
 
 # Development
 
-## Firmware
+## [Firmware](firmware)
+
 
 bash cd firmware  idf.py build idf.py flash idf.py monitor 
 
-## Backend
+## [Backend](api)
 
 bash cd api  go run ./cmd/server 
 
-## Mobile
+## [Mobile](mobile)
+
+bash cd mobile  yarn install
 
 bash cd mobile  yarn install yarn start 
 
@@ -567,7 +600,7 @@ Please open an issue or submit a pull request.
 
 MIT License
 
-See LICENSE for details.
+See [LICENSE](LICENSE) for details.
 
 ---
 
