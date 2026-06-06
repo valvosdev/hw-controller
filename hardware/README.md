@@ -1,7 +1,10 @@
-# This version is NOT FOR PROD
-In the first version and contains issues.
-1. C12 should be through hole
-2. BT136-500 triac is overkill for this project.
+# Branch hw-cnt-v1.0.1
+this branch is for fixing the issues from hw-cnt-v1.0.0
+
+# TODO
+1. C12 make thoughhole
+2. Change BT triac to something smaller and cheaper
+3. 
 
 
 As a development pcb it can be used as issues above can be fixed.
