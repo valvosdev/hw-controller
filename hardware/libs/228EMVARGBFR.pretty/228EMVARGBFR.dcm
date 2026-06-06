@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 228EMVARGBFR
+D Tactile Switches LED tact sw, gullwing, vertical, red,green&blue flat led
+K
+F https://www.ctscorp.com/Files/DataSheets/Switches/Tactile-Switches/CTS-Switches-Tactile-228E-Series-Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

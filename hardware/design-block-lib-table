@@ -1,0 +1,4 @@
+(design_block_lib_table
+	(version 7)
+	(lib (name "RT6362GSP") (type "KiCad") (uri "${VALVOS_KICAD_LIB}/RT6362GSP") (options "") (descr ""))
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FODM3053-NF098
+D Triac & SCR Output Optocouplers Optocoupl AC-Out 1-Ch 600VDRM 4-Pin
+K
+F https://www.onsemi.com/pub/Collateral/FODM3053_NF098-D.PDF
+$ENDCMP
+#
+#End Doc Library
